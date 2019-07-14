@@ -7,6 +7,10 @@ os:
   - osx
   - windows
 
+cache:
+  directories:
+    - $HOME/.cargo/bin/rustup-toolchain-install-master
+
 branches:
   # Don't build these branches
   except:
